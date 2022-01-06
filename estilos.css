@@ -1,3 +1,4 @@
+/* MENU */
 @import url(https://fonts.google.com/share?selection.family=Noto%20Sans%20Display:wght@600);
 html {
   box-sizing: border-box;
@@ -59,4 +60,21 @@ html {
   0% {
     background-position-x: 390px;
   }
+}
+
+/* BODY - BIOGRAFIA  */
+.bio-titulo {
+    color: #FFF;
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.bio {
+    color: #FFF;
+    width: 120vh;
+    font-size: 13pt;
+    line-height: 1.5;
+    font-family: 'Noto Sans Display', sans-serif;
 }
