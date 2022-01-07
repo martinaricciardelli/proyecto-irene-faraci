@@ -77,4 +77,81 @@ html {
     font-size: 13pt;
     line-height: 1.5;
     font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+}
+
+/* BODY - TRABAJOS DESTACADOS */
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both,
+  }
+
+  .destacados-titulo {
+    color: #FFF;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+      
+  }
+
+  .desc {
+    background-color: #783172;
+    opacity: 75%;
+  }
+
+  .categoria-titulo {
+    color: #FFF;
+    font-style: italic;
+    margin-bottom: 8px;
+
+  }
+
+  .subcategoria-titulo {
+    color: #FFF;
+    font-weight: bold;
+    
 }
