@@ -83,3 +83,30 @@
 .icono {
   margin-right: 10px;
 }
+/* -----------------------------------------*/
+
+/* CONTACTO */
+.contacto-titulo {
+    color: #FFF;
+    font-size: 22pt;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    transition: transform 1s ease-out;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.contacto-titulo:hover {
+    transform: scale(1.3);
+  }
+
+.contacto {
+  color: #FFF;
+  font-size: 14pt;
+  line-height: 1.5;
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: center;
+}
