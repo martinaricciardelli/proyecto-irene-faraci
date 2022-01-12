@@ -116,6 +116,7 @@
 .documental-titulo {
   color: #FFF;
   font-size: 22pt;
+  font-style: italic;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -126,13 +127,13 @@
   transition-delay: 0s;
 }
 
-.documetal-titulo:hover {
+.documental-titulo:hover {
   transform: scale(1.3);
 }
 
 .titulo-de-obra {
   color: #FFF;
-  font-size: 18pt;
+  font-size: 20pt;
   text-align: center;
   margin-bottom: 25px;
 }
