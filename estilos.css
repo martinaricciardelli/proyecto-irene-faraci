@@ -143,3 +143,29 @@
   display:flex;
   flex-wrap: wrap;
 }
+
+/* PRODUCTO */
+.producto-titulo {
+  color: #FFF;
+  font-size: 22pt;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: transform 1s ease-out;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.producto-titulo:hover {
+  transform: scale(1.3);
+}
+
+.titulo-de-obra {
+  color: #FFF;
+  font-size: 20pt;
+  text-align: center;
+  margin-bottom: 25px;
+}
