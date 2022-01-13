@@ -84,7 +84,7 @@
     color: #FFF;
     font-size: 22pt;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
     transition: transform 1s ease-out;
     transition-property: transform;
@@ -118,7 +118,7 @@
   font-size: 22pt;
   font-style: italic;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
   transition: transform 1s ease-out;
   transition-property: transform;
