@@ -35,8 +35,9 @@
 /* BODY - TRABAJOS DESTACADOS */
 
 .destacados-titulo {
+    font-family: 'Noto Sans Display', sans-serif;
     color: #FFF;
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
