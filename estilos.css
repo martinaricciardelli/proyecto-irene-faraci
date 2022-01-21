@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* MENU */
   .nav-link {
@@ -19,7 +22,7 @@
     font-weight:bold;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
      
 
@@ -28,6 +31,7 @@
     font-size: 14pt;
     line-height: 1.5;
     font-family: 'Noto Sans Display', sans-serif;
+    font-style: italic;
     font-weight: lighter;
     text-align: center;
 }
@@ -85,11 +89,12 @@
 
 .titulo-de-obra {
   color: #FFF;
-  font-size: 20pt;
+  font-size: 22pt;
   text-align: center;
   font-family: 'Noto Sans Display', sans-serif;
   font-style: italic;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  
 }
 
 .thumbnail {
@@ -113,5 +118,10 @@ h3 {
 
 #current {
   text-decoration: underline;
+
 }
 
+.nav-item:hover {
+background-color: #B55EBC;
+border-radius: 5px;
+}
