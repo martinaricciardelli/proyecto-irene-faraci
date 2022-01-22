@@ -17,14 +17,19 @@ html {
 /* BODY - BIOGRAFIA  */
 .titulo-principal {
     color: #FFF;
-    font-size: 30pt;
+    font-size: 22pt;
     font-family: 'Noto Sans Display', sans-serif;
     font-weight:bold;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+    letter-spacing: 0.5pt;
+    text-transform: uppercase;
 }
      
+#container-principal {
+  width: 70%;
+}
 
 .bio {
     color: #FFF;
@@ -34,6 +39,8 @@ html {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
+    margin-top: 3px;
+    
 }
 
 /* BODY - TRABAJOS DESTACADOS */
@@ -41,7 +48,7 @@ html {
 .destacados-titulo {
     font-family: 'Noto Sans Display', sans-serif;
     color: #FFF;
-    font-size: 20pt;
+    font-size: 16pt;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -94,6 +101,8 @@ html {
   font-family: 'Noto Sans Display', sans-serif;
   font-style: italic;
   margin-bottom: 30px;
+  font-weight: bold;
+  
   
 }
 
@@ -101,6 +110,7 @@ html {
 	margin-bottom:6px;
   display:flex;
   flex-wrap: wrap;
+ 
 }
 
 
@@ -124,4 +134,14 @@ h3 {
 .nav-item:hover {
 background-color: #B55EBC;
 border-radius: 5px;
+}
+
+.descripcion {
+  color: #FFF;
+    font-size: 14pt;
+    line-height: 1.5;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    
 }
