@@ -1,8 +1,8 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 html {
   scroll-behavior: smooth;
@@ -13,6 +13,9 @@ html {
     font-size: 18px;
   }
 
+  .nav-item {
+    margin-right: 20px;
+  }
 
 /* BODY - BIOGRAFIA  */
 .titulo-principal {
@@ -33,7 +36,7 @@ html {
 
 .bio {
     color: #FFF;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 1.5;
     font-family: 'Noto Sans Display', sans-serif;
     font-style: italic;
@@ -61,12 +64,14 @@ html {
     color: #FFF;
     font-style: italic;
     margin-bottom: 8px;
+    letter-spacing: 0.5pt;
 
   }
 
 .card-text {
     color: #FFF;
     font-weight: bold;
+    letter-spacing: 0.5px;
 
     
 }
@@ -110,6 +115,8 @@ html {
 	margin-bottom:6px;
   display:flex;
   flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 10px;
  
 }
 
@@ -143,5 +150,19 @@ border-radius: 5px;
     font-family: 'Noto Sans Display', sans-serif;
     text-align: center;
     margin-top: 3px;
+    font-weight: normal;
     
+}
+
+/*-------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.foto {
+  width: 435px;
+  height: 300px;
 }
