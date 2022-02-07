@@ -43,6 +43,7 @@ html {
     font-weight: lighter;
     text-align: center;
     margin-top: 3px;
+
     
 }
 
@@ -88,10 +89,12 @@ html {
   font-size: 12pt;
   line-height: 1.5;
   font-family: 'Noto Sans Display', sans-serif;
-  font-weight: lighter;
   text-align: center;
   margin-top: 3px;
   margin-bottom: 80px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.3pt;
 
 }
 
@@ -146,17 +149,17 @@ h3 {
 
 .nav-item:hover {
 background-color: #B55EBC;
-border-radius: 5px;
+border-radius: 3px;
 }
 
 .descripcion {
   color: #FFF;
-    font-size: 14pt;
-    line-height: 1.5;
-    font-family: 'Noto Sans Display', sans-serif;
-    text-align: center;
-    margin-top: 3px;
-    font-weight: normal;
+  font-size: 14pt;
+  line-height: 1.5;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: normal;
     
 }
 
