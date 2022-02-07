@@ -85,17 +85,23 @@ html {
 
 .contacto {
   color: #FFF;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 1.5;
   font-family: 'Noto Sans Display', sans-serif;
+  font-weight: lighter;
   text-align: center;
-  margin-bottom: 50px;
+  margin-top: 3px;
+  margin-bottom: 80px;
+
 }
 
 .icono-contacto {
   margin-right: 10px;
 }
 
+#container-contacto {
+  width: 55%;;
+}
 /* -------------------------------------- */
 
 
