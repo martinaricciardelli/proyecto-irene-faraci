@@ -177,3 +177,44 @@ border-radius: 3px;
   width: 435px;
   height: 300px;
 }
+
+/******************************************************************************************************/
+
+/* RESPONSIVE */
+
+
+/* MOBILE */
+@media (max-width: 576px) { 
+
+  /* INICIO */
+  #container-principal {
+    width: 80%;
+  }
+
+  .titulo-principal {
+    font-size: 16pt;
+  }
+
+  .bio {
+    font-size: 10pt;
+  }
+
+  .destacados-titulo {
+    font-size: 14pt;
+  }
+
+
+
+  .copyright {
+    font-size: 9pt;
+  }
+
+  /* DOCUMENTAL */
+
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+}
