@@ -206,15 +206,34 @@ border-radius: 3px;
 
 
   .copyright {
-    font-size: 9pt;
+    font-size: 8pt;
   }
 
-  /* DOCUMENTAL */
+  /* FOTOS GALERIAS */
+  .foto {
+    width: 350px;
+    height: 220px;
+  }
+
+  .titulo-de-obra {
+    font-size: 13pt;
+  }
+
+  .descripcion {
+    font-size: 10pt;
+  }
 
 }
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
+ #container-galeria {
+   width: 100%
+ }
 
-  
+ .foto {
+  width: 350px;
+  height: 190px;
+}
+
 }
