@@ -198,7 +198,7 @@ border-radius: 3px;
 
   .titulo-principal {
     font-size: 16pt;
-    margin-top: 5px;
+    margin-top: 40px;
   }
 
   .bio {
@@ -222,7 +222,7 @@ border-radius: 3px;
   }
 
   .titulo-de-obra {
-    font-size: 13pt;
+    font-size: 14pt;
   }
 
   .descripcion {
@@ -230,8 +230,8 @@ border-radius: 3px;
   }
 
   .icono-img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
   
   .icono {
