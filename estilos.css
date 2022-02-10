@@ -96,7 +96,6 @@ html {
   font-style: normal;
   letter-spacing: 0.3pt;
 
-  
 
 }
 
@@ -237,6 +236,14 @@ border-radius: 3px;
   
   .icono {
     margin-right: 5px;
+  }
+
+  .contacto {
+    width: 100%;
+  }
+
+  #icono-container {
+    margin-bottom: 10px;
   }
 
 }
