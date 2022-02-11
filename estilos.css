@@ -40,7 +40,7 @@ html {
 }
      
 #container-principal {
-  width: 60%;
+  width: 65%;
 }
 
 .bio {
@@ -229,7 +229,7 @@ border-radius: 3px;
 
   /* FOTOS GALERIAS */
   .foto {
-    width: 330px;
+    width: 350px;
     height: 220px;
   }
 
