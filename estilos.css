@@ -17,6 +17,10 @@ html {
     margin-right: 20px;
   }
 
+  .dropdown-menu:hover{ /* SEGUIR DESDE ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    color: aqua;
+  }
+
 /* BODY - BIOGRAFIA  */
 .titulo-principal {
     color: #FFF;
@@ -80,6 +84,8 @@ html {
 
 .icono {
   margin-right: 10px;
+  text-decoration: none;
+  color: white;
 }
 /* -----------------------------------------*/
 
@@ -101,6 +107,7 @@ html {
 
 .icono-contacto {
   margin-right: 10px;
+
 }
 
 #container-contacto {
