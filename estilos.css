@@ -17,8 +17,13 @@ html {
     margin-right: 20px;
   }
 
-  .dropdown-menu:hover{ /* SEGUIR DESDE ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
-    color: aqua;
+  .navbar-nav li .dropdown-menu{
+    background-color: #FF0000;
+  }
+
+        
+  .dropdown-item{ /* SEGUIR DESDE ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    text-decoration: none;
   }
 
 /* BODY - BIOGRAFIA  */
