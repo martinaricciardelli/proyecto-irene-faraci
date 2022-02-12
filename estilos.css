@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }*/
+@media (min-width: 1200px) {
 
 html {
   scroll-behavior: smooth;
@@ -17,11 +18,7 @@ html {
     margin-right: 20px;
   }
 
-  .navbar-nav li .dropdown-menu{
-    background-color: #FF0000;
-  }
 
-        
   .dropdown-item{ /* SEGUIR DESDE ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
     text-decoration: none;
   }
@@ -194,7 +191,7 @@ border-radius: 3px;
   width: 30px;
   height: 30px;
 }
-
+}
 /******************************************************************************************************/
 
 /* RESPONSIVE */
@@ -261,19 +258,43 @@ border-radius: 3px;
 }
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1119px) {
  #container-galeria {
    width: 100%
  }
 
  .foto {
-  width: 350px;
+  width: 310px;
   height: 190px;
 }
 
 .titulo-principal {
-  font-size: 22pt;
+  font-size: 20pt;
   margin-bottom: 70px;
+  color: white;
+  text-align: center;
+}
+
+.titulo-de-obra {
+  color: #FFF;
+  font-size: 18pt;
+  text-align: center;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-style: italic;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+
+.descripcion {
+  color: #FFF;
+  font-size: 13pt;
+  line-height: 1.5;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: normal;
+    
 }
 
 }
