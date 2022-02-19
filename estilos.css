@@ -265,6 +265,11 @@ border-radius: 3px;
     font-size: 8pt;
   }
 
+  .icono {
+    text-decoration: none;
+    color: white;
+  }
+
   /* FOTOS GALERIAS */
   .foto {
     width: 350px;
@@ -372,8 +377,12 @@ border-radius: 3px;
   font-weight: lighter;
   text-align: center;
   margin-top: 3px;
-
     
+}
+
+.icono {
+  text-decoration: none;
+  color: white;
 }
 
 }
