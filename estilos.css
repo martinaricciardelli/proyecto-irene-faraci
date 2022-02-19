@@ -295,6 +295,15 @@ border-radius: 3px;
 
   .contacto {
     width: 100%;
+    color: #FFF;
+    font-size: 10pt;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 80px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.3pt;
   }
 
   #icono-container {
@@ -383,6 +392,18 @@ border-radius: 3px;
 .icono {
   text-decoration: none;
   color: white;
+}
+
+.contacto {
+  color: #FFF;
+  font-size: 11pt;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 80px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.3pt;
 }
 
 }
