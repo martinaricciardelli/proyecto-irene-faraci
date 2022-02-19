@@ -23,6 +23,11 @@ html {
     text-decoration: none;
   }
 
+  .dropdown-item:hover{
+    background-color: #B55EBC!important; 
+  }
+
+
 /* BODY - BIOGRAFIA  */
 .titulo-principal {
     color: #FFF;
@@ -205,6 +210,15 @@ border-radius: 3px;
     width: 80%;
   }
 
+  .dropdown-item:hover{
+    background-color: #B55EBC!important; 
+  }
+
+  .nav-item:hover {
+    background-color: #B55EBC;
+    border-radius: 3px;
+    }
+
   .titulo-principal {
     font-size: 16pt;
     margin-top: 40px;
@@ -262,6 +276,15 @@ border-radius: 3px;
  #container-galeria {
    width: 100%
  }
+
+ .dropdown-item:hover{
+  background-color: #B55EBC!important; 
+}
+
+.nav-item:hover {
+  background-color: #B55EBC;
+  border-radius: 3px;
+  }
 
  .foto {
   width: 310px;
