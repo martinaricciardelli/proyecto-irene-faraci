@@ -222,17 +222,44 @@ border-radius: 3px;
   .titulo-principal {
     font-size: 16pt;
     margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
   }
 
   .bio {
     font-size: 10pt;
+    color: #FFF;
+    line-height: 1.5;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 3px;
+  
+      
   }
+  
 
   .destacados-titulo {
     font-size: 14pt;
   }
 
+  .card-title {
+    color: #FFF;
+    font-style: italic;
+    margin-bottom: 8px;
+    letter-spacing: 0.5pt;
 
+  }
+
+.card-text {
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    
+}
 
   .copyright {
     font-size: 8pt;
@@ -286,6 +313,21 @@ border-radius: 3px;
   border-radius: 3px;
   }
 
+.card-title {
+  color: #FFF;
+  font-style: italic;
+  margin-bottom: 8px;
+  letter-spacing: 0.5pt;
+
+}
+
+.card-text {
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+
+    
+}
  .foto {
   width: 310px;
   height: 190px;
@@ -293,7 +335,8 @@ border-radius: 3px;
 
 .titulo-principal {
   font-size: 20pt;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: white;
   text-align: center;
 }
@@ -317,6 +360,19 @@ border-radius: 3px;
   text-align: center;
   margin-top: 3px;
   font-weight: normal;
+    
+}
+
+.bio {
+  font-size: 12pt;
+  color: #FFF;
+  line-height: 1.5;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 3px;
+
     
 }
 
