@@ -272,8 +272,9 @@ border-radius: 3px;
 
   /* FOTOS GALERIAS */
   .foto {
-    width: 350px;
-    height: 220px;
+
+    width: 450px;
+    height: 250px;
   }
 
   .titulo-de-obra {
@@ -281,7 +282,15 @@ border-radius: 3px;
   }
 
   .descripcion {
+    font-size: 12pt;
+    color: #FFF;
     font-size: 10pt;
+    line-height: 1.5;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: normal;
+        
   }
 
   .icono-img {
