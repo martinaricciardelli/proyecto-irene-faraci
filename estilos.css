@@ -243,6 +243,8 @@ border-radius: 3px;
 
   .destacados-titulo {
     font-size: 14pt;
+    color: white;
+    text-align: center;
   }
 
   .card-title {
@@ -278,6 +280,13 @@ border-radius: 3px;
 
   .titulo-de-obra {
     font-size: 14pt;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 1pt;
   }
 
   .descripcion {
@@ -316,6 +325,11 @@ border-radius: 3px;
 
   #icono-container {
     margin-bottom: 10px;
+  }
+
+  .icono-contacto {
+    margin-right: 10px;
+  
   }
 
 }
